@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec825e7a.chunk.css",
+    "main.js": "/static/js/main.2ff3dc39.chunk.js",
+    "main.js.map": "/static/js/main.2ff3dc39.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.66dd7950.js",
+    "runtime-main.js.map": "/static/js/runtime-main.66dd7950.js.map",
+    "static/js/2.e7f3d0ae.chunk.js": "/static/js/2.e7f3d0ae.chunk.js",
+    "static/js/2.e7f3d0ae.chunk.js.map": "/static/js/2.e7f3d0ae.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.80e6ea11e274fe0b6ca467c73296dcca.js": "/precache-manifest.80e6ea11e274fe0b6ca467c73296dcca.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ec825e7a.chunk.css.map": "/static/css/main.ec825e7a.chunk.css.map",
+    "static/js/2.e7f3d0ae.chunk.js.LICENSE.txt": "/static/js/2.e7f3d0ae.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/profilePencil.d476a8b8.svg",
+    "static/media/addButton.svg": "/static/media/addButton.b2fce4ac.svg",
+    "static/media/editButton.svg": "/static/media/editButton.6bfdb354.svg",
+    "static/media/mestoLogo.svg": "/static/media/mestoLogo.e889e45f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66dd7950.js",
+    "static/js/2.e7f3d0ae.chunk.js",
+    "static/css/main.ec825e7a.chunk.css",
+    "static/js/main.2ff3dc39.chunk.js"
+  ]
+}
