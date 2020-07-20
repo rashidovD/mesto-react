@@ -1,3 +1,7 @@
+## Проект 10: Место
+1. Это интерактивная веб-страница, с использованием JavaScript, возможностью взаимодействия пользователя с элементами на странице
+2. Использован React
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
