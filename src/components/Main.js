@@ -39,9 +39,9 @@ class Main extends React.Component {
             type="button"
             onClick={this.props.onEditAvatar}>
               <img
-              alt="Аватар"
-              className="profile__avatar"
-              src={this.state.userAvatar}
+                alt="Аватар"
+                className="profile__avatar"
+                src={this.state.userAvatar}
               />
           </button>
 
@@ -66,8 +66,8 @@ class Main extends React.Component {
           className="button profile__add-button"
           onClick={this.props.onAddPlace}>
             <img
-            src={plus}
-            alt="Плюс"
+              src={plus}
+              alt="Плюс"
             />
         </button>
       </section>

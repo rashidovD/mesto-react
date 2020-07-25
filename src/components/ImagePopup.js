@@ -6,6 +6,7 @@ class ImagePopup extends React.Component {
   }
 
   render() {
+    console.log(this.props.image);
     return (
       <div className={this.props.card ? "popup popup_type_img popup_opened" : "popup popup_type_img"}>
         <div className="popup__image-container">
@@ -14,8 +15,8 @@ class ImagePopup extends React.Component {
           type="button"
           onClick={this.props.onClose}>
           </button>
-          <img  className="popup__image" src={this.props.card} />
-          <p className="popup__text"></p>
+          <img  className="popup__image" src={this.props.image.link} alt={this.props.image.name} />
+          <p className="popup__text"> {this.props.image.name}</p>
         </div>
     </div>
     )

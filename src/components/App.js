@@ -13,7 +13,11 @@ class App extends React.Component {
       isEditProfilePopupOPen: false,
       isAddPlacePopupOpen: false,
       isEditAvatarPopupOpen: false,
-      selectedCard: ''
+      selectedCard: false,
+      dataImg: {
+        link: null,
+        name: null
+      }
     }
   }
 
@@ -37,7 +41,11 @@ class App extends React.Component {
 
   handleCardClick = (card) => {
     this.setState({
-      selectedCard: card.link
+      selectedCard: true,
+      dataImg: {
+        link: card.link,
+        name: card.name
+      }
     })
   }
 
@@ -46,7 +54,11 @@ class App extends React.Component {
       isEditProfilePopupOPen: false,
       isAddPlacePopupOpen: false,
       isEditAvatarPopupOpen: false,
-      selectedCard: ''
+      selectedCard: false,
+      dataImg: {
+        link: null,
+        name: null
+      }
     })
   }
 
@@ -96,7 +108,11 @@ class App extends React.Component {
         <ButtonSubmit>Сохранить</ButtonSubmit>
       </PopupWithForm>
 
-      <ImagePopup card={this.state.selectedCard} onClose={this.closeAllPopups} />
+      <ImagePopup
+        card={this.state.selectedCard}
+        onClose={this.closeAllPopups}
+        image={this.state.dataImg}
+      />
 
 
       </div>

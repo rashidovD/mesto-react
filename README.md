@@ -1,7 +1,9 @@
-## Проект 10: Место
+## Проект 10 : Место / `mesto-react`
 1. Это интерактивная веб-страница, с использованием JavaScript, возможностью взаимодействия пользователя с элементами на странице
-2. Использован React
-3. project link https://telepuzig.github.io/mesto-react/
+2. Сборка приложения на React / [Create React App](https://github.com/facebook/create-react-app)
+3. [Ссылка на проектную работу (project link)](https://telepuzig.github.io/mesto-react/)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

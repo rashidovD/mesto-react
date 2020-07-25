@@ -13,9 +13,10 @@ class Card extends React.Component {
     return (
       <div className="place">
         <img
-        className="place__image"
-        src={this.props.card.link}
-        onClick={this.handleClick}
+          className="place__image"
+          src={this.props.card.link}
+          alt={this.props.card.name}
+          onClick={this.handleClick}
         />
         <button type="button" className="place__delete-card"></button>
         <div className="place__description">
