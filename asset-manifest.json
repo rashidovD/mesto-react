@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mesto-react/static/css/main.64c40264.chunk.css",
-    "main.js": "/mesto-react/static/js/main.cfcc4b41.chunk.js",
-    "main.js.map": "/mesto-react/static/js/main.cfcc4b41.chunk.js.map",
+    "main.css": "/mesto-react/static/css/main.5b0826d7.chunk.css",
+    "main.js": "/mesto-react/static/js/main.82aaa983.chunk.js",
+    "main.js.map": "/mesto-react/static/js/main.82aaa983.chunk.js.map",
     "runtime-main.js": "/mesto-react/static/js/runtime-main.937ca5b9.js",
     "runtime-main.js.map": "/mesto-react/static/js/runtime-main.937ca5b9.js.map",
-    "static/js/2.e7f3d0ae.chunk.js": "/mesto-react/static/js/2.e7f3d0ae.chunk.js",
-    "static/js/2.e7f3d0ae.chunk.js.map": "/mesto-react/static/js/2.e7f3d0ae.chunk.js.map",
+    "static/js/2.f3521268.chunk.js": "/mesto-react/static/js/2.f3521268.chunk.js",
+    "static/js/2.f3521268.chunk.js.map": "/mesto-react/static/js/2.f3521268.chunk.js.map",
     "index.html": "/mesto-react/index.html",
-    "precache-manifest.7edaf23e012cf73a6254853459962609.js": "/mesto-react/precache-manifest.7edaf23e012cf73a6254853459962609.js",
+    "precache-manifest.7f717587ca52a39d9bbe627d7e93b715.js": "/mesto-react/precache-manifest.7f717587ca52a39d9bbe627d7e93b715.js",
     "service-worker.js": "/mesto-react/service-worker.js",
-    "static/css/main.64c40264.chunk.css.map": "/mesto-react/static/css/main.64c40264.chunk.css.map",
-    "static/js/2.e7f3d0ae.chunk.js.LICENSE.txt": "/mesto-react/static/js/2.e7f3d0ae.chunk.js.LICENSE.txt",
+    "static/css/main.5b0826d7.chunk.css.map": "/mesto-react/static/css/main.5b0826d7.chunk.css.map",
+    "static/js/2.f3521268.chunk.js.LICENSE.txt": "/mesto-react/static/js/2.f3521268.chunk.js.LICENSE.txt",
     "static/media/index.css": "/mesto-react/static/media/profilePencil.d476a8b8.svg",
     "static/media/addButton.svg": "/mesto-react/static/media/addButton.b2fce4ac.svg",
     "static/media/editButton.svg": "/mesto-react/static/media/editButton.6bfdb354.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.937ca5b9.js",
-    "static/js/2.e7f3d0ae.chunk.js",
-    "static/css/main.64c40264.chunk.css",
-    "static/js/main.cfcc4b41.chunk.js"
+    "static/js/2.f3521268.chunk.js",
+    "static/css/main.5b0826d7.chunk.css",
+    "static/js/main.82aaa983.chunk.js"
   ]
 }
