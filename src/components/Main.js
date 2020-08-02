@@ -1,32 +1,11 @@
 import React from 'react';
-import api from '../utils/Api';
 import Card from './Card';
 import pen from '../images/editButton.svg';
 import plus from '../images/addButton.svg';
+import { CurrentUserContext } from '../contexts/CurrentUserContext';
 
 class Main extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      userName: '',
-      userJob: '',
-      userAvatar: '',
-      cards: []
-    }
-  }
-
-  componentDidMount() {
-    Promise.all([api.getUserInfo(), api.getInitialCards()])
-      .then(([{name, about, avatar}, initialCards]) => {
-        this.setState({
-          userName: name,
-          userJob: about,
-          userAvatar: avatar,
-          cards: initialCards
-        })
-      })
-      .catch(err => console.log(err));
-  }
+  static contextType = CurrentUserContext;
 
   render() {
     return (
@@ -41,13 +20,13 @@ class Main extends React.Component {
               <img
                 alt="Аватар"
                 className="profile__avatar"
-                src={this.state.userAvatar}
+                src={this.context.avatar}
               />
           </button>
 
           <div className="profile__info">
             <div className="profile__details">
-              <h1 className="profile__name">{this.state.userName}</h1>
+              <h1 className="profile__name">{this.context.name}</h1>
               <button
                 type="button"
                 className="button profile__edit-button"
@@ -58,7 +37,7 @@ class Main extends React.Component {
                   />
               </button>
             </div>
-            <p className="profile__job">{this.state.userJob}</p>
+            <p className="profile__job">{this.context.about}</p>
           </div>
         </div>
         <button
@@ -72,11 +51,13 @@ class Main extends React.Component {
         </button>
       </section>
       <section className="places">
-        {this.state.cards.map(card => (
+        {this.props.cards.map(card => (
           <Card
             card={card}
             key={card._id}
             onCardClick={this.props.onCardClick}
+            onCardLike={this.props.onCardLike}
+            onCardDelete={this.props.onCardDelete}
           />
         ))}
       </section>

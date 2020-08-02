@@ -15,7 +15,7 @@ class ImagePopup extends React.Component {
           onClick={this.props.onClose}>
           </button>
           <img  className="popup__image" src={this.props.image.link} alt={this.props.image.name} />
-          <p className="popup__text"> {this.props.image.name}</p>
+          <p className="popup__text">{this.props.image.name}</p>
         </div>
     </div>
     )
