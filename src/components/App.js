@@ -3,7 +3,6 @@ import Header from './Header';
 import Footer from './Footer';
 import Main from './Main';
 import ImagePopup from './ImagePopup';
-import PopupWithForm from './PopupWithForm';
 import AddPlacePopup from './AddPlacePopup';
 import EditAvatarPopup from './EditAvatarPopup';
 import EditProfilePopup from './EditProfilePopup';

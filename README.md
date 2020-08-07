@@ -1,11 +1,12 @@
-## `Проект 11 : Место` / `mesto-react`
-1. Это интерактивная веб-страница, с использованием JavaScript, возможностью взаимодействия пользователя с элементами на странице
+## `Проект 11 : Место / mesto-react`
+<hr>
+
+1. Это интерактивная веб-страница, с использованием **JavaScript**, возможностью взаимодействия пользователя с элементами на странице
 2. Сборка приложения на React / [Create React App](https://github.com/facebook/create-react-app)
-3. Ссылка на проектную работу : <a href="https://telepuzig.github.io/mesto-react/" target="_blank">`PROJECT LINK`</a>
+3. Ссылка на проектную работу : [`PROJECT LINK`](https://telepuzig.github.io/mesto-react/)
 
 
-
-
+<hr>
 
 ## Available Scripts
 
