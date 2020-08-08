@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Main from './Main';
+import Spinner from './Spinner';
 import ImagePopup from './ImagePopup';
 import AddPlacePopup from './AddPlacePopup';
 import EditAvatarPopup from './EditAvatarPopup';
@@ -16,6 +17,7 @@ class App extends React.Component {
       isEditProfilePopupOPen: false,
       isAddPlacePopupOpen: false,
       isEditAvatarPopupOpen: false,
+      isLoading: false,
       selectedCard: false,
       currentUser: null,
       dataImg: {
@@ -26,11 +28,15 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+    this.setState({
+      isLoading: true
+    })
     Promise.all([api.getUserInfo(), api.getInitialCards()])
       .then(([userInfo, initialCards]) => {
         this.setState({
           currentUser: userInfo,
-          cards: initialCards
+          cards: initialCards,
+          isLoading: false
         })
       })
       .catch(error => console.log(error));
@@ -140,7 +146,7 @@ class App extends React.Component {
         <CurrentUserContext.Provider value={this.state.currentUser}>
 
           <Header />
-          {this.state.currentUser && <Main
+          {this.state.isLoading ? <Spinner /> : this.state.currentUser && <Main
             onEditProfile={this.handleEditProfileClick}
             onAddPlace={this.handleAddPlaceClick}
             onEditAvatar={this.handleEditAvatarClick}
